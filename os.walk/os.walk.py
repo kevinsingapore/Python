@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#_*_coding:utf-8_*_
+#-*- coding:UTF-8 -*-
 
 import os
 
