@@ -6,9 +6,9 @@ from mysql.connector import Error
 
 try:
     connection = mysql.connector.connect(host='localhost',
-              				 database='joomladb',
+              				 database='kevindb',
 					 user='root',
-					 password='Supervisor@999')
+					 password='ABc999')
     if connection.is_connected():
         db_Info = connection.get_server_info()
         print("Connected to MySQL Server version ", db_Info)
