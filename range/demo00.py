@@ -9,5 +9,6 @@
 #print(type(list))
 
 #python3写法
-list1 = list(range(1,100,1))
+list1 = list(range(1,101,2))
 print(list1)
+print(list1[-10:])
