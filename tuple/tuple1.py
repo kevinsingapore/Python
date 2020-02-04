@@ -7,6 +7,8 @@ print(type(tuple01))
 
 print(tuple01)
 
+print(tuple01[1])
+
 print(len(tuple01))
 
 double = 8 * tuple01
