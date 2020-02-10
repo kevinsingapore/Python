@@ -3,10 +3,13 @@
 
 import os
 
-#新建文件夹
-new_dir = os.mkdir("kevin")
+#新建文件夹kevin
+os.mkdir('kevin')
+print(os.listdir('.'))
 
-print(new_dir)
+#删除文件夹kevin
+os.rmdir('kevin')
+print(os.listdir('.'))
 
 
 
