@@ -1,7 +1,10 @@
 #!/usr/bin/python3
 #-*- coding:UTF-8 -*-
 
-num = range(1,11,1)
+num = range(1,1001,1)
 
+f = open('num.txt','w')
 for i in num:
-  print(i)
+  print(i,file=f)
+
+f.close()
